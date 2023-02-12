@@ -1,10 +1,10 @@
 [package]
 name = "BeanGameEngine"
-version = "0.0.0"
-description = "A Tauri App"
+version = "1.0.0"
+description = "bean"
 authors = ["you"]
-license = ""
-repository = ""
+license = "MIT"
+repository = "https://github.com/virejdasani/BeanGameEngine"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html

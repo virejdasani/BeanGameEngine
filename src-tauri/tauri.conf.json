@@ -8,7 +8,7 @@
   },
   "package": {
     "productName": "BeanGameEngine",
-    "version": "0.0.0"
+    "version": "1.0.0"
   },
   "tauri": {
     "allowlist": {
@@ -20,8 +20,8 @@
     },
     "bundle": {
       "active": true,
-      "category": "DeveloperTool",
-      "copyright": "",
+      "category": "Game",
+      "copyright": "MIT",
       "deb": {
         "depends": []
       },
@@ -33,7 +33,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "com.virej.beangameengine",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
@@ -61,7 +61,7 @@
       "fullscreen": false,
       "height": 600,
       "resizable": true,
-      "title": "Sub for a BEAN",
+      "title": "bean",
       "width": 800
     }]
   }
