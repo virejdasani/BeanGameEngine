@@ -1,4 +1,3 @@
-// randomly render an image from assets to the canvas
 var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
 
