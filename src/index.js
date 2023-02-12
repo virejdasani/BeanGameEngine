@@ -6,9 +6,11 @@ var spawnButton = document.getElementById("spawn");
 
 spawnButton.addEventListener("click", () => {
   var img = new Image();
-  img.src = `./assets/bean${Math.floor(Math.random() * 10)}.png`;
-  img.style.width = "10px";
-  img.style.height = "10px";
+  if (Math.random() < 0.05) {
+    img.src = `./assets/coolbean${Math.floor(Math.random() * 10)}.png`;
+  } else {
+    img.src = `./assets/bean${Math.floor(Math.random() * 10)}.png`;
+  }
   img.onload = () => {
     ctx.drawImage(
       img,
@@ -19,16 +21,3 @@ spawnButton.addEventListener("click", () => {
     );
   };
 });
-
-const img = new Image();
-img.src = `./assets/bean${Math.floor(Math.random()) * 10}.png`;
-
-// setInterval(() => {}, 1000);
-
-img.onload = () => {
-  ctx.drawImage(
-    imgs,
-    this.position.x + this.parallaxOffsetX,
-    this.position.y + this.parallaxOffsetY
-  );
-};
